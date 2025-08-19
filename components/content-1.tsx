@@ -10,20 +10,12 @@ export default function ContentSection() {
         <div className="grid gap-6 sm:grid-cols-2 md:gap-12 lg:gap-24">
           <div className="relative mb-6 sm:mb-0">
             <div className="bg-linear-to-b aspect-76/59 relative rounded-2xl from-zinc-300 to-transparent p-px dark:from-zinc-700">
-              <Image
-                src="/payments.png"
-                className="hidden rounded-[15px] dark:block"
-                alt="payments illustration dark"
-                width={1207}
-                height={929}
-              />
-              <Image
-                src="/payments-light.png"
-                className="rounded-[15px] shadow dark:hidden"
-                alt="payments illustration light"
-                width={1207}
-                height={929}
-              />
+              <div className="flex h-full w-full items-center justify-center rounded-[15px] bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-800 dark:to-gray-900">
+                <div className="text-center">
+                  <div className="mx-auto mb-4 h-16 w-16 rounded-full bg-gray-300 dark:bg-gray-600"></div>
+                  <p className="text-sm text-gray-500 dark:text-gray-400">Payment Dashboard</p>
+                </div>
+              </div>
             </div>
           </div>
 
